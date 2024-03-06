@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FB89152B94A27900C33023 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 01FB89142B94A27900C33023 /* RealityKitContent */; };
+		01FB89172B94A27900C33023 /* ShopViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89162B94A27900C33023 /* ShopViewApp.swift */; };
+		01FB89192B94A27900C33023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89182B94A27900C33023 /* ContentView.swift */; };
+		01FB891B2B94A27900C33023 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB891A2B94A27900C33023 /* ImmersiveView.swift */; };
+		01FB891D2B94A27B00C33023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FB891C2B94A27B00C33023 /* Assets.xcassets */; };
+		01FB89202B94A27B00C33023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FB891F2B94A27B00C33023 /* Preview Assets.xcassets */; };
+		01FB89282B94A6E100C33023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89272B94A6E100C33023 /* AppDelegate.swift */; };
+		01FB892A2B94A82D00C33023 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89292B94A82D00C33023 /* SceneDelegate.swift */; };
+		01FB89312B97230100C33023 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89302B97230100C33023 /* ListView.swift */; };
+		01FB89332B97231200C33023 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89322B97231200C33023 /* ListViewModel.swift */; };
+		01FB89352B97242D00C33023 /* items_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89342B97242D00C33023 /* items_data.json */; };
+		01FB89392B97260300C33023 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB89382B97260300C33023 /* ItemDetailView.swift */; };
+		01FB893B2B97275F00C33023 /* ShoppingItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB893A2B97275F00C33023 /* ShoppingItemModel.swift */; };
+		01FB893D2B9730C200C33023 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB893C2B9730C200C33023 /* ItemDetailViewModel.swift */; };
+		01FB89402B974E4C00C33023 /* Phone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB893F2B974E4C00C33023 /* Phone.usdz */; };
+		01FB89422B974FD900C33023 /* Laptop.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89412B974FD900C33023 /* Laptop.usdz */; };
+		01FB89442B97502A00C33023 /* Sneakers.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89432B97502A00C33023 /* Sneakers.usdz */; };
+		01FB89462B97505C00C33023 /* Guitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89452B97505C00C33023 /* Guitar.usdz */; };
+		01FB89482B9750AA00C33023 /* Teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89472B9750AA00C33023 /* Teapot.usdz */; };
+		01FB894A2B9750DB00C33023 /* WateringCan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89492B9750DB00C33023 /* WateringCan.usdz */; };
+		01FB89502B97518C00C33023 /* Gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB894F2B97518C00C33023 /* Gramophone.usdz */; };
+		01FB89522B97519A00C33023 /* PlaneToy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89512B97519A00C33023 /* PlaneToy.usdz */; };
+		01FB89542B975AC400C33023 /* Sneakers.scn in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89532B975AC400C33023 /* Sneakers.scn */; };
+		01FB89572B97831100C33023 /* TVRetro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89552B97831100C33023 /* TVRetro.usdz */; };
+		01FB895A2B9783F000C33023 /* DrummerToy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 01FB89592B9783F000C33023 /* DrummerToy.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01FB890F2B94A27900C33023 /* ShopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FB89132B94A27900C33023 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		01FB89162B94A27900C33023 /* ShopViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewApp.swift; sourceTree = "<group>"; };
+		01FB89182B94A27900C33023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01FB891A2B94A27900C33023 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		01FB891C2B94A27B00C33023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01FB891F2B94A27B00C33023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01FB89212B94A27B00C33023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FB89272B94A6E100C33023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01FB89292B94A82D00C33023 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01FB89302B97230100C33023 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		01FB89322B97231200C33023 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		01FB89342B97242D00C33023 /* items_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items_data.json; sourceTree = "<group>"; };
+		01FB89382B97260300C33023 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		01FB893A2B97275F00C33023 /* ShoppingItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemModel.swift; sourceTree = "<group>"; };
+		01FB893C2B9730C200C33023 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
+		01FB893F2B974E4C00C33023 /* Phone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Phone.usdz; sourceTree = "<group>"; };
+		01FB89412B974FD900C33023 /* Laptop.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Laptop.usdz; path = ../../../../../Downloads/Laptop.usdz; sourceTree = "<group>"; };
+		01FB89432B97502A00C33023 /* Sneakers.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Sneakers.usdz; path = ../../../../../Downloads/Sneakers.usdz; sourceTree = "<group>"; };
+		01FB89452B97505C00C33023 /* Guitar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Guitar.usdz; path = ../../../../../Downloads/Guitar.usdz; sourceTree = "<group>"; };
+		01FB89472B9750AA00C33023 /* Teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Teapot.usdz; path = ../../../../../Downloads/Teapot.usdz; sourceTree = "<group>"; };
+		01FB89492B9750DB00C33023 /* WateringCan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WateringCan.usdz; path = ../../../../../Downloads/WateringCan.usdz; sourceTree = "<group>"; };
+		01FB894F2B97518C00C33023 /* Gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Gramophone.usdz; sourceTree = "<group>"; };
+		01FB89512B97519A00C33023 /* PlaneToy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = PlaneToy.usdz; sourceTree = "<group>"; };
+		01FB89532B975AC400C33023 /* Sneakers.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Sneakers.scn; path = ../../../../../Downloads/Sneakers.scn; sourceTree = "<group>"; };
+		01FB89552B97831100C33023 /* TVRetro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TVRetro.usdz; path = ../../../../../Downloads/TVRetro.usdz; sourceTree = "<group>"; };
+		01FB89592B9783F000C33023 /* DrummerToy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = DrummerToy.usdz; path = ../../../../../Downloads/DrummerToy.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FB890C2B94A27900C33023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FB89152B94A27900C33023 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FB89062B94A27900C33023 = {
+			isa = PBXGroup;
+			children = (
+				01FB89112B94A27900C33023 /* ShopView */,
+				01FB89122B94A27900C33023 /* Packages */,
+				01FB89102B94A27900C33023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01FB89102B94A27900C33023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01FB890F2B94A27900C33023 /* ShopView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01FB89112B94A27900C33023 /* ShopView */ = {
+			isa = PBXGroup;
+			children = (
+				01FB89272B94A6E100C33023 /* AppDelegate.swift */,
+				01FB89292B94A82D00C33023 /* SceneDelegate.swift */,
+				01FB89162B94A27900C33023 /* ShopViewApp.swift */,
+				01FB89182B94A27900C33023 /* ContentView.swift */,
+				01FB891A2B94A27900C33023 /* ImmersiveView.swift */,
+				01FB893E2B97322A00C33023 /* ItemDetail */,
+				01FB89372B97247200C33023 /* ListView */,
+				01FB89212B94A27B00C33023 /* Info.plist */,
+				01FB891E2B94A27B00C33023 /* Preview Content */,
+				01FB89362B97243A00C33023 /* Supporting Files */,
+			);
+			path = ShopView;
+			sourceTree = "<group>";
+		};
+		01FB89122B94A27900C33023 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				01FB89132B94A27900C33023 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		01FB891E2B94A27B00C33023 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01FB891F2B94A27B00C33023 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01FB89362B97243A00C33023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01FB89592B9783F000C33023 /* DrummerToy.usdz */,
+				01FB89552B97831100C33023 /* TVRetro.usdz */,
+				01FB89512B97519A00C33023 /* PlaneToy.usdz */,
+				01FB894F2B97518C00C33023 /* Gramophone.usdz */,
+				01FB89492B9750DB00C33023 /* WateringCan.usdz */,
+				01FB89472B9750AA00C33023 /* Teapot.usdz */,
+				01FB89452B97505C00C33023 /* Guitar.usdz */,
+				01FB89432B97502A00C33023 /* Sneakers.usdz */,
+				01FB89532B975AC400C33023 /* Sneakers.scn */,
+				01FB89412B974FD900C33023 /* Laptop.usdz */,
+				01FB893F2B974E4C00C33023 /* Phone.usdz */,
+				01FB893A2B97275F00C33023 /* ShoppingItemModel.swift */,
+				01FB891C2B94A27B00C33023 /* Assets.xcassets */,
+				01FB89342B97242D00C33023 /* items_data.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01FB89372B97247200C33023 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				01FB89302B97230100C33023 /* ListView.swift */,
+				01FB89322B97231200C33023 /* ListViewModel.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		01FB893E2B97322A00C33023 /* ItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				01FB89382B97260300C33023 /* ItemDetailView.swift */,
+				01FB893C2B9730C200C33023 /* ItemDetailViewModel.swift */,
+			);
+			path = ItemDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01FB890E2B94A27900C33023 /* ShopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FB89242B94A27B00C33023 /* Build configuration list for PBXNativeTarget "ShopView" */;
+			buildPhases = (
+				01FB890B2B94A27900C33023 /* Sources */,
+				01FB890C2B94A27900C33023 /* Frameworks */,
+				01FB890D2B94A27900C33023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopView;
+			packageProductDependencies = (
+				01FB89142B94A27900C33023 /* RealityKitContent */,
+			);
+			productName = ShopView;
+			productReference = 01FB890F2B94A27900C33023 /* ShopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01FB89072B94A27900C33023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					01FB890E2B94A27900C33023 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 01FB890A2B94A27900C33023 /* Build configuration list for PBXProject "ShopView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01FB89062B94A27900C33023;
+			productRefGroup = 01FB89102B94A27900C33023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01FB890E2B94A27900C33023 /* ShopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01FB890D2B94A27900C33023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FB89522B97519A00C33023 /* PlaneToy.usdz in Resources */,
+				01FB895A2B9783F000C33023 /* DrummerToy.usdz in Resources */,
+				01FB89202B94A27B00C33023 /* Preview Assets.xcassets in Resources */,
+				01FB89542B975AC400C33023 /* Sneakers.scn in Resources */,
+				01FB89462B97505C00C33023 /* Guitar.usdz in Resources */,
+				01FB891D2B94A27B00C33023 /* Assets.xcassets in Resources */,
+				01FB89422B974FD900C33023 /* Laptop.usdz in Resources */,
+				01FB89482B9750AA00C33023 /* Teapot.usdz in Resources */,
+				01FB89442B97502A00C33023 /* Sneakers.usdz in Resources */,
+				01FB894A2B9750DB00C33023 /* WateringCan.usdz in Resources */,
+				01FB89402B974E4C00C33023 /* Phone.usdz in Resources */,
+				01FB89572B97831100C33023 /* TVRetro.usdz in Resources */,
+				01FB89352B97242D00C33023 /* items_data.json in Resources */,
+				01FB89502B97518C00C33023 /* Gramophone.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FB890B2B94A27900C33023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FB89312B97230100C33023 /* ListView.swift in Sources */,
+				01FB892A2B94A82D00C33023 /* SceneDelegate.swift in Sources */,
+				01FB89282B94A6E100C33023 /* AppDelegate.swift in Sources */,
+				01FB893B2B97275F00C33023 /* ShoppingItemModel.swift in Sources */,
+				01FB89392B97260300C33023 /* ItemDetailView.swift in Sources */,
+				01FB89192B94A27900C33023 /* ContentView.swift in Sources */,
+				01FB893D2B9730C200C33023 /* ItemDetailViewModel.swift in Sources */,
+				01FB89332B97231200C33023 /* ListViewModel.swift in Sources */,
+				01FB89172B94A27900C33023 /* ShopViewApp.swift in Sources */,
+				01FB891B2B94A27900C33023 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01FB89222B94A27B00C33023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		01FB89232B94A27B00C33023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		01FB89252B94A27B00C33023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopView/Preview Content\"";
+				DEVELOPMENT_TEAM = A7NNQBFKXU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.ShopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		01FB89262B94A27B00C33023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopView/Preview Content\"";
+				DEVELOPMENT_TEAM = A7NNQBFKXU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.ShopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FB890A2B94A27900C33023 /* Build configuration list for PBXProject "ShopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FB89222B94A27B00C33023 /* Debug */,
+				01FB89232B94A27B00C33023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FB89242B94A27B00C33023 /* Build configuration list for PBXNativeTarget "ShopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FB89252B94A27B00C33023 /* Debug */,
+				01FB89262B94A27B00C33023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01FB89142B94A27900C33023 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 01FB89072B94A27900C33023 /* Project object */;
+}
